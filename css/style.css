@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Navbar */
+.navbar-brand img {
+  max-height: 60px;
+}
+.navbar-nav .nav-link {
+  font-weight: 500;
+  color: #343a40 !important;
+}
+.navbar-nav .nav-link:hover {
+  color: #007bff !important;
+}
+
+/* Secciones */
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Miniaturas (si hicieras un collapse de miniaturas en otro lugar) */
+/*
+#miniaturas img {
+  height: 150px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+#miniaturas img:hover {
+  transform: scale(1.05);
+}
+*/
+
+/* Carrusel de imágenes */
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Modal PDF y Video */
+.modal-body iframe {
+  border: none;
+}
+
+/* Offcanvas */
+.offcanvas-body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  background-color: #e9ecef;
+  padding: 20px 0;
+  border-top: 1px solid #ced4da;
+}
+footer img {
+  margin: 0 10px;
+  transition: transform 0.2s ease;
+}
+footer img:hover {
+  transform: scale(1.1);
+}
